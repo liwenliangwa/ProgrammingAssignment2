@@ -103,3 +103,9 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+### Notes
+
+makeCacheMatrix(m) will take matrix m, and return an object capable of storing its inverse matrix for faster retrival, the function will return a list object which can set the value, get the value, set the inverse matrix and get the pre-calculated inverse matrix
+
+cacheSolve(cm) takes the list object returned by makeCacheMatrix, either return the previous calculated inverse matrix or calculate the inverse matrix and store the inverse matrix internally, so it doee not have to recalculate it again next time
